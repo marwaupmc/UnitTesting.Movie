@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Movie]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL,
+	[Title] NVARCHAR(50) NOT NULL,
+	[ReleaseDate] DateTime NULL,
+
+	CONSTRAINT PK_Movie PRIMARY KEY ([Id])
+)
